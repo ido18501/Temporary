@@ -1,0 +1,64 @@
+* commit 80c5ef73f2c56fae133856f4b247c4c0213b9c5f
+| Author: ido18501 <ido18501@gmail.com>
+| Date:   Thu Jul 18 14:00:36 2024 +0300
+| 
+|     adding dry.pdf and handeling exceptions
+| 
+|  SortedList.h |  40 +++++++++++++++++++++++++++++++++-------
+|  TaskManager  | Bin 74360 -> 78456 bytes
+|  dry.pdf      | Bin 0 -> 70404 bytes
+|  3 files changed, 33 insertions(+), 7 deletions(-)
+| 
+* commit c30a00f0974b019adeed5a99819799fd093c43b0
+| Author: ido18501 <ido18501@gmail.com>
+| Date:   Thu Jul 18 13:00:16 2024 +0300
+| 
+|     first final version of wet part
+| 
+|  .gitignore      |   4 +
+|  Person.cpp      |  15 ++--
+|  Person.h        |  12 +--
+|  SortedList.h    | 218 +++++++++++++++++++++++++++++++++++++++++++-----------
+|  Task.cpp        |  65 ++++++++--------
+|  Task.h          |  11 +--
+|  TaskManager     | Bin 0 -> 74360 bytes
+|  TaskManager.cpp | 109 +++++++++++++++++++++++++++
+|  TaskManager.h   |  13 +++-
+|  main.cpp        | 177 ++++++++++++++++++--------------------------
+|  test1.out       |   2 +
+|  test2.out       |   2 +
+|  test3.out       |  29 ++++++++
+|  test4.out       |   2 +
+|  test5.out       |   2 +
+|  test6.out       |  14 ++++
+|  16 files changed, 472 insertions(+), 203 deletions(-)
+| 
+* commit ebb9fc09ff533a819b528f0a66d73a6fd453475b
+| Author: AdiHarif <adi.harif@campus.technion.ac.il>
+| Date:   Mon Jul 15 20:55:03 2024 +0300
+| 
+|     Adds supplied files
+| 
+|  Person.cpp           |  51 +++++
+|  Person.h             |  79 ++++++++
+|  SortedList.h         |  57 ++++++
+|  Task.cpp             |  83 ++++++++
+|  Task.h               | 115 +++++++++++
+|  TaskManager.h        |  75 +++++++
+|  main.cpp             | 531 +++++++++++++++++++++++++++++++++++++++++++++++++
+|  tests/test1.expected |   3 +
+|  tests/test2.expected |   3 +
+|  tests/test3.expected |  30 +++
+|  tests/test4.expected |   3 +
+|  tests/test5.expected |   3 +
+|  tests/test6.expected |  15 ++
+|  13 files changed, 1048 insertions(+)
+| 
+* commit 1d686955fb829e5ecd8af0a69edce35628cc5d8d
+  Author: AdiHarif <adi.harif@campus.technion.ac.il>
+  Date:   Mon Jul 15 20:53:59 2024 +0300
+  
+      Initial Commit - Adds README file
+  
+   README.md | 7 +++++++
+   1 file changed, 7 insertions(+)
